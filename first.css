@@ -1,0 +1,74 @@
+#calc{
+    width: 350px;
+    height: 600px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    border: 10px solid rgb(77, 73, 73);
+    border-radius: 20px;
+}
+#dis{
+    text-align: right;
+    margin-top: 60px;
+    font-size: 70px;
+    width: 300px;
+    height: 100px;
+    font-family: cursive;
+    color: white;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    overflow: auto;
+}
+#discalc{
+    width: 90px;
+    height: 30px;
+    color: white;
+    font-size: 20px;
+}
+.numb{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+   padding: 10px;
+    background-color: rgb(17, 17, 17);
+    border: none;
+    font-size: 30px;
+    color: white;
+    margin:5px;
+}
+#but{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 220px;
+    text-align: center;
+    padding-left: 20px;
+    float: left;
+    
+}
+.arith{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    padding: 10px;
+    background-color: rgb(247, 143, 6);
+    border: none;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 10px;
+}
+#clear{
+    width: 150px;
+    height: 65px;
+    border-radius: 35px;
+    background-color: rgb(247, 143, 6);
+    
+    margin-left: 10px;
+    display: inline-block;
+    border: none;
+    margin-bottom: 10px;
+    margin-right: 70px;
+    font-family: cursive;
+    color: white;
+    font-size: 30px;
+}
+#dis-scrollbar-track {
+    background: black}
